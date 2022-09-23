@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-Regression">
+	<test thread-count="3" name="TestActions" parallel="classes">
+		<classes>
+			<class name="tests.selenium.actions.DoubleClickDemo" />
+
+			<class
+				name="tests.selenium.actions.MouseHoverAndPrintListValue" />
+				
+				<class
+				name="tests.selenium.actions.MouseHoverAndPrintListValue" />
+				<class
+				name="tests.selenium.actions.MouseHoverAndPrintListValue" />
+
+
+		</classes>
+	</test> <!-- TestActions -->
+</suite> <!-- Suite-Regression -->
